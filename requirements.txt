@@ -1,3 +1,2 @@
-obspython
 tweepy
 datetime
