@@ -71,6 +71,8 @@ def handle_event(event):
         stop_tweet()
 
 def start_tweet():
+    global tweet_counter
+    stop_tweet()
     tweet_counter = 0
     tweet_callback()
     obs.timer_add(tweet_callback, TWEET_INTERVAL)
